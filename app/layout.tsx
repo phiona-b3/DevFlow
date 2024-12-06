@@ -5,9 +5,8 @@ import { ThemeProvider } from "next-themes";
 import React, { ReactNode } from "react";
 
 import "./globals.css";
-import { Toaster } from "@/components/ui/toaster";
-
 import { auth } from "@/auth";
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = localFont({
   src: "./fonts/InterVF.ttf",
